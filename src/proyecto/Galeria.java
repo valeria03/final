@@ -38,15 +38,24 @@ public class Galeria {
     
      Imagensita i4=new Imagensita();
     
-    i4.setUrl("/Proyecto/3.png");
+    i4.setUrl("/Proyecto/4.png");
     i4.setTitulo("Botines");
     i4.setDescripcion("Ideales para temporada de frio "+"con plataforma es lo mejor ");
     
      Imagensita i5=new Imagensita();
     
-    i5.setUrl("/Proyecto/3.png");
+    i5.setUrl("/Proyecto/5.png");
     i5.setTitulo("Tacones de ante ");
     i5.setDescripcion("Estos tacones son perfectos para salir a un evento y mas que nada de salon ");
+    
+    
+      //Agregar estas imagenss al ArrayList
+        
+        imagenes.add(i1);
+        imagenes.add(i2);
+        imagenes.add(i3);
+        imagenes.add(i4);
+        imagenes.add(i5);
     
    
     }
